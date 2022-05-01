@@ -11,7 +11,7 @@ public class mainController {
     public String hello(Model model) {
         model.addAttribute("data", "hello!!");
 
-
+        //자 테스트인데 잘 되나?
         return "hello";
     }
 }
